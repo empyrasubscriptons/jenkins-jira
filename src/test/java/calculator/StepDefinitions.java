@@ -32,12 +32,12 @@ public class StepDefinitions {
 
    @When("I press sub")
     public void i_press_sub() {
-        this.result =  Calculator.Add(this.int1, this.int2);
+        this.result =  Calculator.Subtract(this.int1, this.int2);
     }
 
     @When("I press divide")
     public void i_press_divide() {
-        this.result =  Calculator.Multiply(this.int1, this.int2);
+        this.result =  Calculator.Divide(this.int1, this.int2);
     }
     
 
