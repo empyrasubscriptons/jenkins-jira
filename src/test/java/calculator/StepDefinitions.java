@@ -3,7 +3,7 @@ package calculator;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import com.xray.tutorials.Calculator;
+import com.xray.Calculator;
 
 import static org.junit.Assert.*;
 
